@@ -1,5 +1,3 @@
-require 'nokogiri'
-require 'securerandom'
 class EADSerializer < ASpaceExport::Serializer
   serializer_for :ead
 

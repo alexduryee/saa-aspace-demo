@@ -10,7 +10,7 @@ Created by Alex Duryee as a demonstration of the "Making ArchivesSpace Work for 
 
 This plugin modifies two functions in ArchivesSpace's EAD serialization script to include a new attribute.
 
-Collection-level `<unitid>` are generated in the `stream()` function, at line 66, and in the `serialize_child()` function, at line 150.
+Collection-level `<unitid>` are generated in the `stream()` function, at line 64, and in the `serialize_child()` function, at line 148.
 
 This plugin uses [Nokogiri Builder](http://nokogiri.rubyforge.org/nokogiri/Nokogiri/XML/Builder.html) to add attributes to XML tags, using the syntax of `xml.TAGNAME(ELEMENT_VALUE, :ATTRIBUTE_NAME => ATTRIBUTE_VALUE)`
 
